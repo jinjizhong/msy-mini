@@ -1,0 +1,55 @@
+/* 基本flex布局 */
+.flex_row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+.flex_row_xCenter {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+}
+.flex_row_yCenter {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+.flex_row_center {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+}
+.flex_column {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+}
+.flex_column_xCenter {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+}
+.flex_column_yCenter {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+.flex_column_center {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+}
+/* 边框阴影 */
+.box-shadow{
+	padding: 30upx 25upx;
+	box-shadow:0.5px 0px 3px 1px rgba(8, 52, 59, 0.06);
+	border-radius:22upx;
+}

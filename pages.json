@@ -1,0 +1,200 @@
+{
+	"pages": [
+
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "商城",
+				"navigationStyle": "custom"
+			}
+		},{
+			"path": "pages/cart/cart",
+			"style": {
+				"navigationBarTitleText": "购物车"
+			}
+		}, {
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarTitleText": "马石油登录"
+			}
+		}, {
+			"path": "pages/user/user",
+			"style": {
+				"navigationBarTitleText": "个人中心",
+				"navigationStyle": "custom"
+			}
+		}, {
+			"path": "pages/order/order",
+			"style": {
+				"navigationBarTitleText": "全部订单",
+				"app-plus": {
+					"bounce": "none"
+				}
+			}
+		}, {
+			"path": "pages/money/hexiao",
+			"style": {
+				"navigationBarTitleText":"使用核销"
+			}
+		}, {
+			"path": "pages/money/pay",
+			"style": {
+				"navigationBarTitleText": "支付"
+			}
+		},
+		{
+			"path": "pages/money/paySuccess",
+			"style": {
+				"navigationBarTitleText": "支付成功"
+			}
+		},{
+			"path": "pages/category/category",
+			"style": {
+				"navigationBarTitleText": "门店",
+				"app-plus": {
+					"bounce": "none"
+				}
+			}
+		}, {
+			"path": "pages/search/search",
+			"style": {
+				"navigationBarTitleText": "搜索",
+				"app-plus": {
+					"bounce": "none"
+				}
+			}
+		}, {
+			"path": "pages/product/list",
+			"style": {
+				"enablePullDownRefresh": true,
+				"navigationBarTitleText": "商品列表"
+			}
+		}, {
+			"path": "pages/detail/storeDetail",
+			"style": {
+				"navigationBarTitleText": "门店详情"
+			}
+		}, {
+			"path": "pages/detail/goodsDetail",
+			"style": {
+				// "enablePullDownRefresh": true,
+				"navigationBarTitleText": "商品详情"
+			}
+		}
+	    ,{
+            "path" : "pages/order/confirmOrder",
+            "style": {
+            	"navigationBarTitleText": "订单确认",
+            	"app-plus": {
+            		"bounce": "none"
+            	}
+            }
+        }
+        ,{
+            "path" : "pages/car/addCar",
+            "style": {
+            	"navigationBarTitleText": "添加车辆信息",
+            	"app-plus": {
+            		"bounce": "none"
+            	}
+            }
+        },
+		{
+			"path": "pages/order/pingjia",
+			"style": {
+				// "enablePullDownRefresh": true,
+				"navigationBarTitleText": "评价店铺"
+			}
+		},
+		{
+			"path": "pages/order/tuikuan",
+			"style": {
+				// "enablePullDownRefresh": true,
+				"navigationBarTitleText": "订单退款"
+			}
+		}
+        ,{
+            "path" : "pages/car/carManage",
+            "style": {
+            	// "enablePullDownRefresh": true,
+            	"navigationBarTitleText": "车辆管理"
+            }
+        },{
+            "path" : "pages/user/jifen",
+            "style": {
+            	"navigationBarTitleText": "积分管理"
+            }
+        },{
+            "path" : "pages/user/kefu",
+            "style": {
+            	"navigationBarTitleText": "联系客服"
+            }
+        },{
+            "path" : "pages/detail/orderDetail",
+            "style": {
+            	"navigationBarTitleText": "订单详情"
+            }
+        },{
+            "path" : "pages/search/storeChoose",
+            "style": {
+            	"navigationBarTitleText": "门店选择"
+            }
+        }
+		,{
+		    "path" : "pages/car/choseBrand",
+		    "style": {
+		    	"navigationBarTitleText": "品牌选择"
+		    }
+		},
+		{
+		    "path" : "pages/car/choseCarSys",
+		    "style": {
+		    	"navigationBarTitleText": "车系选择"
+		    }
+		},
+		{
+		    "path" : "pages/car/choseVehicleType",
+		    "style": {
+		    	"navigationBarTitleText": "车型选择"
+		    }
+		}
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "马石油",
+		"fontSize": "36",
+		"navigationBarBackgroundColor": "#FFFFFF",
+		"backgroundColor": "#f8f8f8"
+	},
+	"tabBar": {
+		"color": "#C0C4CC",
+		"selectedColor": "#4CC8C3",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"iconPath": "static/tabbar/tab-home.png",
+				"selectedIconPath": "static/tabbar/tab-home-current.png",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/cart/cart",
+				"iconPath": "static/tabbar/tab-cart.png",
+				"selectedIconPath": "static/tabbar/tab-cart-current.png",
+				"text": "购物车"
+			},
+			{
+				"pagePath": "pages/category/category",
+				"iconPath": "static/tabbar/tab-cate.png",
+				"selectedIconPath": "static/tabbar/tab-cate-current.png",
+				"text": "门店"
+			},
+			{
+				"pagePath": "pages/user/user",
+				"iconPath": "static/tabbar/tab-my.png",
+				"selectedIconPath": "static/tabbar/tab-my-current.png",
+				"text": "个人中心"
+			}
+		]
+	}
+	}
